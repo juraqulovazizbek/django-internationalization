@@ -14,4 +14,8 @@
 </form>
 
 
-{% trans "salom" %}
+{% trans "salom" %} </br></br></br>
+
+{% for product in products %}
+    {{ product.name }}
+{% endfor %}

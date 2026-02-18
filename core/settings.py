@@ -121,8 +121,7 @@ LANGUAGES = [
     ('ru', 'Russian'),
 ]
 
-MODELTRANSLATION_LANGUAGEs = ('uz', 'en', 'ru')
-
+MODELTRANSLATION_LANGUAGES = ("en", "uz", "ru")
 LOCALE_PATHS = [
     BASE_DIR/'locale/'
 ]
